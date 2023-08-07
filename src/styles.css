@@ -53,8 +53,30 @@
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
     width: 50%;
-    height: 5rem;
     color: white;
     margin-top: 20rem;
     font-size: 3rem;
+}
+.nav div {
+    cursor: pointer;
+}
+.nav div:hover {
+    transform: scale(1.2);
+
+}
+.nav div:active {
+    background-color: white;
+    color: black;
+    user-select: none;
+}
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.menu-items div:hover {
+    transform: scale(1.2);
 }
